@@ -56,6 +56,13 @@ avg / total       0.54      0.53      0.53       161
  [28 52]]
 ```
 
+Slightly "better" approach in the sense that it's not just blindly outputting
+the same value over and over again.
+
+### Neural nets
+
+First idea is to just throw everything 
+
 ## References
 
 Will be updated as more research is done.
