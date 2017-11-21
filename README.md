@@ -70,4 +70,6 @@ Will be updated as more research is done.
 * Combining polarimetric channels for better ship detection results
   * https://earth.esa.int/c/document_library/get_file?folderId=409229&name=DLFE-5566.pdf
   * HH works better at high incidence angles (band_1) so may need to do something there
+* Ship-Iceberg Discrimination with Convolutional Neural Networks in High Resolution SAR Images
+  * http://elib.dlr.de/99079/2/2016_BENTES_Frost_Velotto_Tings_EUSAR_FP.pdf
 
