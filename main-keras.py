@@ -4,6 +4,9 @@ import pandas as pd
 # easy way to split data set into train/dev sets
 from sklearn.model_selection import train_test_split
 
+# for generation a confusion matrix
+from sklearn.metrics import confusion_matrix
+
 from keras.layers import Activation, Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras.models import Sequential
@@ -35,14 +38,12 @@ def build_model():
   model.add(MaxPooling2D(pool_size=(3, 3), strides=(2, 2)))
   model.add(Dropout(0.2))
 
+  # conv layer 1
   model.add(Conv2D(128, kernel_size=(3, 3), activation="relu"))
   model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
   model.add(Dropout(0.2))
 
-  model.add(Conv2D(128, kernel_size=(3, 3), activation="relu"))
-  model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
-  model.add(Dropout(0.2))
-
+  # conv layer 2
   model.add(Conv2D(64, kernel_size=(3, 3), activation="relu"))
   model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
   model.add(Dropout(0.2))
@@ -51,18 +52,15 @@ def build_model():
   model.add(Flatten())
 
   # dense layer
-  model.add(Dense(512))
-  model.add(Activation("relu"))
+  model.add(Dense(256, activation="relu"))
   model.add(Dropout(0.2))
 
   # dense layer
-  model.add(Dense(256))
-  model.add(Activation("relu"))
+  model.add(Dense(128, activation="relu"))
   model.add(Dropout(0.2))
 
   # sigmoid layer
-  model.add(Dense(1))
-  model.add(Activation("sigmoid"))
+  model.add(Dense(1, activation="sigmoid"))
 
   # compile model
   optimizer = Adam()
@@ -82,8 +80,6 @@ def main():
   
   # construct model to use
   model = build_model()
-
-  print(np.shape(train_features), np.shape(train_labels))
 
   # fit against the model
   model.fit(train_features, train_labels,
