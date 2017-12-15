@@ -20,6 +20,8 @@ AT_LOCALE	../lib/python3.6/sre_constants.py	/^AT_LOCALE = {$/;"	kind:variable	li
 AT_MULTILINE	../lib/python3.6/sre_constants.py	/^AT_MULTILINE = {$/;"	kind:variable	line:138
 AT_UNICODE	../lib/python3.6/sre_constants.py	/^AT_UNICODE = {$/;"	kind:variable	line:148
 AWAIT	../lib/python3.6/token.py	/^AWAIT = 54$/;"	kind:variable	line:67
+Activation	../main-keras.py	/^from keras.layers import Activation, Dense, Dropout, Flatten$/;"	kind:namespace	line:7
+Adam	../main-keras.py	/^from keras.optimizers import Adam$/;"	kind:namespace	line:10
 AsyncGenerator	../lib/python3.6/_collections_abc.py	/^class AsyncGenerator(AsyncIterator):$/;"	kind:class	line:192
 AsyncGeneratorType	../lib/python3.6/types.py	/^AsyncGeneratorType = type(_ag)$/;"	kind:variable	line:30
 AsyncIterable	../lib/python3.6/_collections_abc.py	/^class AsyncIterable(metaclass=ABCMeta):$/;"	kind:class	line:158
@@ -197,6 +199,7 @@ Completer	../lib/python3.6/rlcompleter.py	/^class Completer:$/;"	kind:class	line
 CompressionError	../lib/python3.6/tarfile.py	/^class CompressionError(TarError):$/;"	kind:class	line:283
 ContStr	../lib/python3.6/tokenize.py	/^ContStr = group(StringPrefix + r"'[^\\n'\\\\]*(?:\\\\.[^\\n'\\\\]*)*" +$/;"	kind:variable	line:188
 Container	../lib/python3.6/_collections_abc.py	/^class Container(metaclass=ABCMeta):$/;"	kind:class	line:374
+Conv2D	../main-keras.py	/^from keras.layers import Conv2D, MaxPooling2D$/;"	kind:namespace	line:8
 Coroutine	../lib/python3.6/_collections_abc.py	/^class Coroutine(Awaitable):$/;"	kind:class	line:114
 CoroutineType	../lib/python3.6/types.py	/^CoroutineType = type(_c)$/;"	kind:variable	line:24
 Counter	../lib/python3.6/collections/__init__.py	/^class Counter(dict):$/;"	kind:class	line:466
@@ -215,8 +218,10 @@ DOUBLESLASHEQUAL	../lib/python3.6/token.py	/^DOUBLESLASHEQUAL = 48$/;"	kind:vari
 DOUBLESTAR	../lib/python3.6/token.py	/^DOUBLESTAR = 35$/;"	kind:variable	line:48
 DOUBLESTAREQUAL	../lib/python3.6/token.py	/^DOUBLESTAREQUAL = 46$/;"	kind:variable	line:59
 Decnumber	../lib/python3.6/tokenize.py	/^Decnumber = r'(?:0(?:_?0)*|[1-9](?:_?[0-9])*)'$/;"	kind:variable	line:126
+Dense	../main-keras.py	/^from keras.layers import Activation, Dense, Dropout, Flatten$/;"	kind:namespace	line:7
 Double	../lib/python3.6/tokenize.py	/^Double = r'[^"\\\\]*(?:\\\\.[^"\\\\]*)*"'$/;"	kind:variable	line:162
 Double3	../lib/python3.6/tokenize.py	/^Double3 = r'[^"\\\\]*(?:(?:\\\\.|"(?!""))[^"\\\\]*)*"""'$/;"	kind:variable	line:166
+Dropout	../main-keras.py	/^from keras.layers import Activation, Dense, Dropout, Flatten$/;"	kind:namespace	line:7
 DynamicClassAttribute	../lib/python3.6/enum.py	/^from types import MappingProxyType, DynamicClassAttribute$/;"	kind:namespace	line:2
 DynamicClassAttribute	../lib/python3.6/types.py	/^class DynamicClassAttribute:$/;"	kind:class	line:113
 ELLIPSIS	../lib/python3.6/token.py	/^ELLIPSIS = 52$/;"	kind:variable	line:65
@@ -272,6 +277,7 @@ FileLoader	../lib/python3.6/importlib/_bootstrap_external.py	/^class FileLoader:
 FileLoader	../lib/python3.6/importlib/abc.py	/^class FileLoader(_bootstrap_external.FileLoader, ResourceLoader, ExecutionLoader):$/;"	kind:class	line:276
 Finder	../lib/python3.6/importlib/abc.py	/^class Finder(metaclass=abc.ABCMeta):$/;"	kind:class	line:29
 Flag	../lib/python3.6/enum.py	/^class Flag(Enum):$/;"	kind:class	line:646
+Flatten	../main-keras.py	/^from keras.layers import Activation, Dense, Dropout, Flatten$/;"	kind:namespace	line:7
 Floatnumber	../lib/python3.6/tokenize.py	/^Floatnumber = group(Pointfloat, Expfloat)$/;"	kind:variable	line:132
 FrameType	../lib/python3.6/types.py	/^    FrameType = type(tb.tb_frame)$/;"	kind:variable	line:46
 FrozenImporter	../lib/python3.6/importlib/_bootstrap.py	/^class FrozenImporter:$/;"	kind:class	line:762
@@ -564,6 +570,7 @@ Iterable	../lib/python3.6/_collections_abc.py	/^class Iterable(metaclass=ABCMeta
 Iterator	../lib/python3.6/_collections_abc.py	/^class Iterator(Iterable):$/;"	kind:class	line:259
 Just	../lib/python3.6/importlib/__init__.py	/^import _imp  # Just the builtin component, NOT the full Python module$/;"	kind:namespace	line:12
 K	../lib/python3.6/functools.py	/^    class K(object):$/;"	kind:class	line:213
+KMeans	../main-sk.py	/^from sklearn.cluster import KMeans$/;"	kind:namespace	line:5
 KeyedRef	../lib/python3.6/weakref.py	/^class KeyedRef(ref):$/;"	kind:class	line:322
 KeysView	../lib/python3.6/_collections_abc.py	/^class KeysView(MappingView, Set):$/;"	kind:class	line:708
 L	../lib/python3.6/re.py	/^    L = LOCALE$/;"	kind:variable	line:152
@@ -603,6 +610,7 @@ MappingProxyType	../lib/python3.6/enum.py	/^from types import MappingProxyType, 
 MappingProxyType	../lib/python3.6/functools.py	/^from types import MappingProxyType$/;"	kind:namespace	line:22
 MappingProxyType	../lib/python3.6/types.py	/^MappingProxyType = type(type.__dict__)$/;"	kind:variable	line:15
 MappingView	../lib/python3.6/_collections_abc.py	/^class MappingView(Sized):$/;"	kind:class	line:694
+MaxPooling2D	../main-keras.py	/^from keras.layers import Conv2D, MaxPooling2D$/;"	kind:namespace	line:8
 MemberDescriptorType	../lib/python3.6/types.py	/^MemberDescriptorType = type(FunctionType.__globals__)$/;"	kind:variable	line:51
 MetaPathFinder	../lib/python3.6/importlib/abc.py	/^class MetaPathFinder(Finder):$/;"	kind:class	line:47
 MethodType	../lib/python3.6/types.py	/^MethodType = type(_C()._m)$/;"	kind:variable	line:34
@@ -669,6 +677,7 @@ PyStringMap	../lib/python3.6/copy.py	/^    PyStringMap = None$/;"	kind:variable	
 PyStringMap	../lib/python3.6/copy.py	/^    from org.python.core import PyStringMap$/;"	kind:namespace	line:60
 Python	../lib/python3.6/importlib/__init__.py	/^import _imp  # Just the builtin component, NOT the full Python module$/;"	kind:namespace	line:12
 Quitter	../lib/python3.6/site.py	/^    class Quitter(object):$/;"	kind:class	line:391
+RANDOM_STATE	../main-sk.py	/^RANDOM_STATE = 0$/;"	kind:variable	line:8
 RARROW	../lib/python3.6/token.py	/^RARROW = 51$/;"	kind:variable	line:64
 RBRACE	../lib/python3.6/token.py	/^RBRACE = 26$/;"	kind:variable	line:39
 RECIP_BPF	../lib/python3.6/random.py	/^RECIP_BPF = 2**-BPF$/;"	kind:variable	line:62
@@ -780,6 +789,7 @@ S_IXUSR	../lib/python3.6/stat.py	/^S_IXUSR = 0o0100  # execute by owner$/;"	kind
 SameFileError	../lib/python3.6/shutil.py	/^class SameFileError(Error):$/;"	kind:class	line:58
 Scanner	../lib/python3.6/re.py	/^class Scanner:$/;"	kind:class	line:346
 Sequence	../lib/python3.6/_collections_abc.py	/^class Sequence(Reversible, Collection):$/;"	kind:class	line:865
+Sequential	../main-keras.py	/^from keras.models import Sequential$/;"	kind:namespace	line:9
 Set	../lib/python3.6/_collections_abc.py	/^class Set(Collection):$/;"	kind:class	line:416
 SimpleNamespace	../lib/python3.6/types.py	/^SimpleNamespace = type(sys.implementation)$/;"	kind:variable	line:16
 Single	../lib/python3.6/tokenize.py	/^Single = r"[^'\\\\]*(?:\\\\.[^'\\\\]*)*'"$/;"	kind:variable	line:160
@@ -2467,6 +2477,7 @@ breaking	../lib/python3.6/shutil.py	/^    import zipfile  # late import for brea
 breaking	../lib/python3.6/shutil.py	/^    import zipfile  # late import for breaking circular dependency$/;"	kind:namespace	line:874
 build_ext	../lib/python3.6/distutils/__init__.py	/^    class build_ext(old_build_ext):$/;"	kind:class	line:37
 build_ext_module	../lib/python3.6/distutils/__init__.py	/^    from distutils.command import build_ext as build_ext_module $/;"	kind:namespace	line:47
+build_model	../main-keras.py	/^def build_model():$/;"	kind:function	line:30
 builtin	../lib/python3.6/importlib/__init__.py	/^import _imp  # Just the builtin component, NOT the full Python module$/;"	kind:namespace	line:12
 builtins	../lib/python3.6/codecs.py	/^import builtins, sys$/;"	kind:namespace	line:10
 builtins	../lib/python3.6/reprlib.py	/^import builtins$/;"	kind:namespace	line:5
@@ -2925,6 +2936,7 @@ curdir	../lib/python3.6/ntpath.py	/^curdir = '.'$/;"	kind:variable	line:24
 curdir	../lib/python3.6/os.py	/^from os.path import (curdir, pardir, sep, pathsep, defpath, extsep, altsep,$/;"	kind:namespace	line:92
 curdir	../lib/python3.6/posixpath.py	/^curdir = '.'$/;"	kind:variable	line:30
 currency	../lib/python3.6/locale.py	/^def currency(val, symbol=True, grouping=False, international=False):$/;"	kind:function	line:254
+data-splitter.py	../utils/data-splitter.py	1;"	kind:file	line:1
 data_encoding	../lib/python3.6/codecs.py	/^    data_encoding = 'unknown'$/;"	kind:variable	line:769
 debug	../lib/python3.6/tarfile.py	/^    debug = 0                   # May be set from 0 (no msgs) to 3 (all msgs)$/;"	kind:variable	line:1386
 decode	../lib/python3.6/base64.py	/^def decode(input, output):$/;"	kind:function	line:506
@@ -3682,6 +3694,7 @@ expovariate	../lib/python3.6/random.py	/^expovariate = _inst.expovariate$/;"	kin
 extend	../lib/python3.6/_collections_abc.py	/^    def extend(self, values):$/;"	kind:member	line:984
 extend	../lib/python3.6/collections/__init__.py	/^    def extend(self, other):$/;"	kind:member	line:1089
 extract	../lib/python3.6/tarfile.py	/^    def extract(self, member, path="", set_attrs=True, *, numeric_owner=False):$/;"	kind:member	line:2026
+extract_data	../main-keras.py	/^def extract_data(data):$/;"	kind:function	line:13
 extractall	../lib/python3.6/tarfile.py	/^    def extractall(self, path=".", members=None, *, numeric_owner=False):$/;"	kind:member	line:1986
 extractfile	../lib/python3.6/tarfile.py	/^    def extractfile(self, member):$/;"	kind:member	line:2064
 extsep	../lib/python3.6/ntpath.py	/^extsep = '.'$/;"	kind:variable	line:26
@@ -4191,6 +4204,7 @@ join	../lib/python3.6/collections/__init__.py	/^    def join(self, seq): return 
 join	../lib/python3.6/ntpath.py	/^def join(path, *paths):$/;"	kind:function	line:74
 join	../lib/python3.6/posixpath.py	/^def join(a, *p):$/;"	kind:function	line:73
 joinuser	../lib/python3.6/site.py	/^    def joinuser(*args):$/;"	kind:function	line:324
+json	../main-sk.py	/^import json$/;"	kind:namespace	line:1
 k	../lib/python3.6/locale.py	/^    k = k.replace('_', '')$/;"	kind:variable	line:717
 keyrefs	../lib/python3.6/weakref.py	/^    def keyrefs(self):$/;"	kind:member	line:460
 keys	../lib/python3.6/_collections_abc.py	/^    def keys(self):$/;"	kind:member	line:672
@@ -4281,7 +4295,10 @@ main	../lib/python3.6/keyword.py	/^def main():$/;"	kind:function	line:55
 main	../lib/python3.6/site.py	/^def main():$/;"	kind:function	line:668
 main	../lib/python3.6/tarfile.py	/^def main():$/;"	kind:function	line:2456
 main	../lib/python3.6/tokenize.py	/^def main():$/;"	kind:function	line:732
-main.py	../main.py	1;"	kind:file	line:1
+main	../main-keras.py	/^def main():$/;"	kind:function	line:75
+main	../main-sk.py	/^def main():$/;"	kind:function	line:34
+main-keras.py	../main-keras.py	1;"	kind:file	line:1
+main-sk.py	../main-sk.py	1;"	kind:file	line:1
 make_archive	../lib/python3.6/shutil.py	/^def make_archive(base_name, format, root_dir=None, base_dir=None, verbose=0,$/;"	kind:function	line:755
 make_encoding_map	../lib/python3.6/codecs.py	/^def make_encoding_map(decoding_map):$/;"	kind:function	line:1058
 make_identity_dict	../lib/python3.6/codecs.py	/^def make_identity_dict(rng):$/;"	kind:function	line:1048
@@ -4329,6 +4346,7 @@ mbcs_decode	../lib/python3.6/encodings/mbcs.py	/^from codecs import mbcs_encode,
 mbcs_encode	../lib/python3.6/encodings/mbcs.py	/^from codecs import mbcs_encode, mbcs_decode$/;"	kind:namespace	line:12
 merge	../lib/python3.6/heapq.py	/^def merge(*iterables, key=None, reverse=False):$/;"	kind:function	line:314
 methodcaller	../lib/python3.6/operator.py	/^class methodcaller:$/;"	kind:class	line:296
+metrics	../main-sk.py	/^from sklearn import metrics, svm$/;"	kind:namespace	line:4
 mkdtemp	../lib/python3.6/tempfile.py	/^def mkdtemp(suffix=None, prefix=None, dir=None):$/;"	kind:function	line:345
 mkstemp	../lib/python3.6/tempfile.py	/^def mkstemp(suffix=None, prefix=None, dir=None, text=False):$/;"	kind:function	line:305
 mktemp	../lib/python3.6/tempfile.py	/^def mktemp(suffix="", prefix=template, dir=None):$/;"	kind:function	line:384
@@ -4388,6 +4406,8 @@ not_compressed	../lib/python3.6/tarfile.py	/^            def not_compressed(comp
 now	../lib/python3.6/importlib/util.py	/^        warnings.warn('The import system now takes care of this automatically.',$/;"	kind:namespace	line:140
 now	../lib/python3.6/importlib/util.py	/^        warnings.warn('The import system now takes care of this automatically.',$/;"	kind:namespace	line:159
 now	../lib/python3.6/importlib/util.py	/^    warnings.warn('The import system now takes care of this automatically.',$/;"	kind:namespace	line:186
+np	../main-keras.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../main-sk.py	/^import numpy as np$/;"	kind:namespace	line:2
 nsmallest	../lib/python3.6/heapq.py	/^def nsmallest(n, iterable, key=None):$/;"	kind:function	line:461
 nt	../lib/python3.6/os.py	/^    import nt$/;"	kind:namespace	line:79
 nt	../lib/python3.6/shutil.py	/^    import nt$/;"	kind:namespace	line:1002
@@ -4468,6 +4488,7 @@ pathsep	../lib/python3.6/os.py	/^from os.path import (curdir, pardir, sep, paths
 pathsep	../lib/python3.6/posixpath.py	/^pathsep = ':'$/;"	kind:variable	line:34
 pbkdf2_hmac	../lib/python3.6/hashlib.py	/^    def pbkdf2_hmac(hash_name, password, salt, iterations, dklen=None):$/;"	kind:function	line:175
 pbkdf2_hmac	../lib/python3.6/hashlib.py	/^    from _hashlib import pbkdf2_hmac$/;"	kind:namespace	line:170
+pd	../main-keras.py	/^import pandas as pd$/;"	kind:namespace	line:2
 peek	../lib/python3.6/weakref.py	/^    def peek(self):$/;"	kind:member	line:558
 perror	../lib/python3.6/tokenize.py	/^    def perror(message):$/;"	kind:function	line:736
 pickle	../lib/python3.6/copyreg.py	/^def pickle(ob_type, pickle_function, constructor_ob=None):$/;"	kind:function	line:12
@@ -4548,6 +4569,7 @@ read	../lib/python3.6/tarfile.py	/^    def read(self, size):$/;"	kind:member	lin
 read	../lib/python3.6/tarfile.py	/^    def read(self, size=None):$/;"	kind:member	line:524
 read	../lib/python3.6/tarfile.py	/^    def read(self, size=None):$/;"	kind:member	line:673
 read	../lib/python3.6/tempfile.py	/^    def read(self, *args):$/;"	kind:member	line:737
+read_data	../main-sk.py	/^def read_data(filename):$/;"	kind:function	line:10
 read_or_stop	../lib/python3.6/tokenize.py	/^    def read_or_stop():$/;"	kind:function	line:379
 readable	../lib/python3.6/tarfile.py	/^    def readable(self):$/;"	kind:member	line:643
 readinto	../lib/python3.6/tarfile.py	/^    def readinto(self, b):$/;"	kind:member	line:704
@@ -4814,6 +4836,7 @@ supports_fd	../lib/python3.6/os.py	/^    supports_fd = _set$/;"	kind:variable	li
 supports_follow_symlinks	../lib/python3.6/os.py	/^    supports_follow_symlinks = _set$/;"	kind:variable	line:177
 supports_unicode_filenames	../lib/python3.6/ntpath.py	/^supports_unicode_filenames = (hasattr(sys, "getwindowsversion") and$/;"	kind:variable	line:556
 supports_unicode_filenames	../lib/python3.6/posixpath.py	/^supports_unicode_filenames = (sys.platform == 'darwin')$/;"	kind:variable	line:442
+svm	../main-sk.py	/^from sklearn import metrics, svm$/;"	kind:namespace	line:4
 swapcase	../lib/python3.6/collections/__init__.py	/^    def swapcase(self): return self.__class__(self.data.swapcase())$/;"	kind:member	line:1239
 symlink_exception	../lib/python3.6/tarfile.py	/^symlink_exception = (AttributeError, NotImplementedError)$/;"	kind:variable	line:62
 symmetric_difference	../lib/python3.6/_weakrefset.py	/^    def symmetric_difference(self, other):$/;"	kind:member	line:174
@@ -4898,6 +4921,7 @@ tis_620.py	../lib/python3.6/encodings/tis_620.py	1;"	kind:file	line:1
 title	../lib/python3.6/collections/__init__.py	/^    def title(self): return self.__class__(self.data.title())$/;"	kind:member	line:1240
 to	../lib/python3.6/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
 to	../lib/python3.6/weakref.py	/^import collections  # Import after _weakref to avoid circular import.$/;"	kind:namespace	line:24
+to_categorical	../main-keras.py	/^from keras.utils import to_categorical$/;"	kind:namespace	line:11
 tobuf	../lib/python3.6/tarfile.py	/^    def tobuf(self, format=DEFAULT_FORMAT, encoding=ENCODING, errors="surrogateescape"):$/;"	kind:member	line:803
 tok_name	../lib/python3.6/token.py	/^tok_name = {value: name$/;"	kind:variable	line:74
 token	../lib/python3.6/tokenize.py	/^import token$/;"	kind:namespace	line:40
@@ -4911,6 +4935,10 @@ top	../lib/python3.6/importlib/_bootstrap.py	/^        raise ValueError('attempt
 total_ordering	../lib/python3.6/functools.py	/^def total_ordering(cls):$/;"	kind:function	line:193
 traceback	../lib/python3.6/_dummy_thread.py	/^        import traceback$/;"	kind:namespace	line:53
 tracemalloc	../lib/python3.6/warnings.py	/^            import tracemalloc$/;"	kind:namespace	line:57
+train_kmeans	../main-sk.py	/^def train_kmeans(features, labels):$/;"	kind:function	line:29
+train_svm	../main-sk.py	/^def train_svm(features, labels):$/;"	kind:function	line:24
+train_test_split	../main-keras.py	/^from sklearn.model_selection import train_test_split$/;"	kind:namespace	line:5
+train_test_split	../main-sk.py	/^from sklearn.model_selection import train_test_split$/;"	kind:namespace	line:6
 trans_36	../lib/python3.6/hmac.py	/^trans_36 = bytes((x ^ 0x36) for x in range(256))$/;"	kind:variable	line:11
 trans_5C	../lib/python3.6/hmac.py	/^trans_5C = bytes((x ^ 0x5C) for x in range(256))$/;"	kind:variable	line:10
 translate	../lib/python3.6/collections/__init__.py	/^    def translate(self, *args):$/;"	kind:member	line:1241
